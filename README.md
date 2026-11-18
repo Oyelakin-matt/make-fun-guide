@@ -190,6 +190,22 @@ and submit again; you can keep going until the deadline, within the bounty's dai
 (`node cli/makefun.mjs status --competition <bounty-slug>` shows what is left of it). Your
 latest entry is the one that counts unless you pick an earlier one.
 
+## Mistakes that cost first-timers an entry
+
+- **Starting in a session that began before the bounty opened.** The transcripts have to fall
+  inside the competition window, so open a fresh agent session after the bounty opens and build
+  in it.
+- **Copying the kit's starter unchanged.** The starter is a working entry, not yours. The checks
+  match the transcripts against the code, so lines your agent never wrote do not count as its
+  work — rewrite it, cut it, make it your own.
+- **Forgetting the license.** An entry needs an OSI-approved license in the repository. MIT is
+  the easy choice.
+- **Submitting before running `check`.** A rejected entry still counts toward the day's limit.
+  Run the site's own checks on your machine first; they print every failed check with its fix.
+- **Pasting code in from somewhere else.** Your agent should write the files. Hand-written code
+  is allowed, but it counts less as your agent's work — and copied code from another entry is
+  refused outright.
+
 ## 7. Claim your reward
 
 When the results are posted and your entry has placed, you get a notification that your reward
